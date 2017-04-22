@@ -1,0 +1,78 @@
+# npmdoc-vinyl-buffer
+
+#### api documentation for  [vinyl-buffer (v1.0.0)](https://github.com/hughsk/vinyl-buffer)  [![npm package](https://img.shields.io/npm/v/npmdoc-vinyl-buffer.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-vinyl-buffer) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-vinyl-buffer.svg)](https://travis-ci.org/npmdoc/node-npmdoc-vinyl-buffer)
+
+#### Convert streaming vinyl files to use buffers
+
+[![NPM](https://nodei.co/npm/vinyl-buffer.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/vinyl-buffer)
+
+- [https://npmdoc.github.io/node-npmdoc-vinyl-buffer/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-vinyl-buffer/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-vinyl-buffer/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-vinyl-buffer/build/apidoc.html)
+
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-vinyl-buffer/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-vinyl-buffer/build/screenCapture.npmPackageDependencyTree.svg)
+
+
+
+# package.json
+
+```json
+
+{
+    "author": {
+        "name": "Hugh Kennedy",
+        "url": "http://hughsk.io/"
+    },
+    "bugs": {
+        "url": "https://github.com/hughsk/vinyl-buffer/issues"
+    },
+    "dependencies": {
+        "bl": "^0.9.1",
+        "through2": "^0.6.1"
+    },
+    "description": "Convert streaming vinyl files to use buffers",
+    "devDependencies": {
+        "tape": "~2.5.0",
+        "vinyl-source-stream": "~0.1.1"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "ca067ea08431d507722b1de5083f602616ebc234",
+        "tarball": "https://registry.npmjs.org/vinyl-buffer/-/vinyl-buffer-1.0.0.tgz"
+    },
+    "gitHead": "2bedc9e24e47fa06ce3f9082c7ed5309dc10d5c3",
+    "homepage": "https://github.com/hughsk/vinyl-buffer",
+    "keywords": [
+        "vinyl",
+        "gulpfriendly",
+        "convert",
+        "buffer",
+        "stream"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "hughsk"
+        }
+    ],
+    "name": "vinyl-buffer",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/hughsk/vinyl-buffer.git"
+    },
+    "scripts": {
+        "test": "node test"
+    },
+    "version": "1.0.0",
+    "bin": {}
+}
+```
+
+
+
+# misc
+- this document was created with [utility2](https://github.com/kaizhu256/node-utility2)
